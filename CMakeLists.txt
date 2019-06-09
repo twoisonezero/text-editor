@@ -25,5 +25,6 @@ add_executable(${PROJECT_EXECUTABLE_NAME} main.c)
 target_link_libraries(${PROJECT_EXECUTABLE_NAME} libtermbox.a)
 target_link_libraries(${PROJECT_EXECUTABLE_NAME} ${PROJECT_NAME})
 
-
 package_add_test(sequence-test1 sequence-test1.cpp)
+package_add_test(sequence-test2 sequence-test2.cpp)
+
